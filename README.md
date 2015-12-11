@@ -97,5 +97,5 @@ mediainfo([complete_path],'--Full',function (err,metadata) {
 Contact
 -------
 
-([Philippe de Visme](mailto:philippe@devisme.com))
+email: [philou2024](mailto:philippe@devisme.com)
 
