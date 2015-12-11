@@ -7,8 +7,7 @@ Overview
 
 Library node.js to extract data from mediainfo output, in simple ou Full mode.
 
-**WARNNING**
-It doesn't work with XML issues.
+**WARNING** : It doesn't work with XML issues.
 
 Library was written to access metadata issued by mediainfo.
 
@@ -98,5 +97,5 @@ mediainfo([complete_path],'--Full',function (err,metadata) {
 Contact
 -------
 
- ([(Philippe de Visme](mailto:(philippe@devisme.com))
+([Philippe de Visme](mailto:(philippe@devisme.com))
 
