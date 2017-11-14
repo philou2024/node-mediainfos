@@ -106,6 +106,11 @@ mediainfo([complete_path],'--Full').then(function(metadata){
 
 ```
 
+Contributors
+-------
+
+Thank you to jgjake2 for adding promise.
+
 
 Contact
 -------
