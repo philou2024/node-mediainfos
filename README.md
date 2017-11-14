@@ -11,7 +11,7 @@ Library node.js to extract data from mediainfo output, in simple ou Full mode.
 
 Library was written to access metadata issued by mediainfo.
 
-It works on Linux (Ubuntu, CentOS), I did not test on Windows.
+It works on Linux (Ubuntu, CentOS), and Windows.
 
 Usage
 -----
@@ -89,6 +89,19 @@ mediainfo([complete_path],'--Full',function (err,metadata) {
     } else {
         console.log("%o", metadata);
     }
+});
+
+```
+
+Promise Example
+-------
+
+```javascript
+var mediainfo = require('node-mediainfos').es6;
+mediainfo([complete_path],'--Full').then(function(metadata){
+	console.log("%o", metadata);
+}, function(err){
+	console.log(err);
 });
 
 ```
